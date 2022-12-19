@@ -1,6 +1,6 @@
 import { calculateCalories, calculateTotalTopThreeCalories } from '../CalculateCalories';
 
-describe('calculate calories', () => {
+describe('Day 1 part 1', () => {
   it('should calculate the highest amount of calories', function () {
     expect(calculateCalories('src/firstDecember/calories.txt')).toEqual('71506');
   });
